@@ -1,7 +1,7 @@
 
 .content {
     display: grid;
-    grid-template-rows: 50px repeat(5, 1fr);
+    grid-template-rows: 50px repeat(8, 1fr);
     grid-template-columns: repeat(6, 1fr);
 
     height: 80vh;
@@ -9,61 +9,3 @@
     text-align: center;
 }
 
-input {
-    
-}
-
-h1 {
-    grid-row: 1/2;
-    grid-column: 1/-1;
-}
-
-.firstname {
-    grid-row: 2/3;
-    grid-column: 2/3;
-}
-
-.lastname {
-    grid-row: 3/4;
-    grid-column: 2/3;
-}
-
-.line1 {
-    grid-row: 2/3;
-    grid-column: 4/7;
-}
-
-.line2 {
-    grid-row: 3/4;
-    grid-column: 4/7;
-}
-
-.city {
-    grid-row: 4/5;
-    grid-column: 2/3;
-}
-
-.state {
-    grid-row: 4/5;
-    grid-column: 3/5;
-}
-
-.zip {
-    grid-row: 4/5;
-    grid-column: 5/6;
-}
-
-.phone {
-    grid-row: 5/6;
-    grid-column: 3/4;
-}
-
-.email {
-    grid-row: 5/6;
-    grid-column: 4/5;
-}
-
-.submit {
-    grid-row: 6/7;
-    grid-column: 2/6;
-}
