@@ -22,7 +22,7 @@
         <div class="content">
             <div class="question">
                 <p><b>Why is your Rockey Burger So Expensive?</b><span onclick="q1click()">(click and reveal feature)</span></p>
-                <p id="q1a">We focus on making meals with thebest and freshest ingredients, like humanely-raised beef that is ground fresh each day, organic chicken, and Rockey Family Dairy’s organic cream for our ice cream cones, sundaes and shakes.<p id="q1b">Ourcommitment to freshnessand quality means higher prices than you’d find at traditional fast-food burger chains. It also means food that tastes way better — because, well, it is.</p></p>
+                <p id="q1a">We focus on making meals with thebest and freshest ingredients, like humanely-raised beef that is ground fresh each day, organic chicken, and Rockey Family Dairy’s organic cream for our ice cream cones, sundaes and shakes.<p id="q1b">Ourcommitment to freshnessand quality means higher prices than you’d find at traditional fast-food burger chains. It also means food that tastes way better — because, well, it is.</p> </p>
             </div>
             <div class="question">
                 <p><b>Where does your beef come from?</b><span onclick="q2click()">(click and reveal feature)</span></p>
@@ -30,28 +30,26 @@
             </div>
         </div>
     </div>
+    <script>
+        function q1click() {
+            var q1a = document.getElementById('q1a');
+            var q1b = document.getElementById('q1b');
+            if(q1a.style.display == 'block'){
+                q1a.style.display = 'none';
+                q1b.style.display = 'none';
+            }else{
+                q1a.style.display = 'block';
+                q1b.style.display = 'block';
+            }
+        }
+        function q2click() {
+            var q2 = document.getElementById('q2');
+            if(q2.style.display == 'block'){
+                q2.style.display = 'none';
+            }else{
+                q2.style.display = 'block';
+            }
+        }
+    </script>
 </body>
-
-<script>
-    function q1click() {
-        var q1a = document.getElementById('q1a');
-        var q1b = document.getElementById('q1b');
-        if(q1a.style.display == 'block'){
-            q1a.style.display = 'none';
-            q1b.style.display = 'none';
-        }else{
-            q1a.style.display = 'block';
-            q1b.style.display = 'block';
-        }
-    }
-    function q2click() {
-        var q2 = document.getElementById('q2');
-        if(q2.style.display == 'block'){
-            q2.style.display = 'none';
-        }else{
-            q2.style.display = 'block';
-        }
-    }
-</script>
-
 </html>
