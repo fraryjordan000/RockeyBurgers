@@ -11,7 +11,7 @@ body {
 .navbar {
     display: flex;
 
-    background-color: limegreen;
+    background-color: #A1E5AB;
     height: 60px;
     align-items: center;
 }
@@ -21,14 +21,14 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-color: #26aa26;
+    background-color: #16DB65;
     border: 1px solid black;
     border-radius: 25%;
     width: 125px;
     height: 75%;
     margin-left: 15px;
     text-decoration: none;
-    color: #f5f5f5;
+    color: #058C42;
     font-size: 0.85rem;
 
     cursor: pointer;
@@ -39,7 +39,7 @@ body {
 }
 
 .link:hover {
-    background-color: #26a026;
+    color: #04471C;
 }
 
 .link:active {
